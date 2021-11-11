@@ -12,11 +12,11 @@ def hello_world():
 
 @app.route('/aaaa')
 def hello_world_aaaa():
-    return 'the path is aaaa'
+    return 'the path is /aaaa'
 
 @app.route('/aaaa/bbbb')
 def hello_world_aaaa_bbbb():
-    return 'the path is aaaa bbbb'
+    return 'the path is /aaaa/bbbb'
 
 @app.route('/today')
 def today_date():
