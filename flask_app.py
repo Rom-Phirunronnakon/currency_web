@@ -10,18 +10,6 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello from Rom Phirunronnakon'
 
-@app.route('/aaaa')
-def hello_world_aaaa():
-    return 'the path is /aaaa'
-
-@app.route('/aaaa/bbbb')
-def hello_world_aaaa_bbbb():
-    return 'the path is /aaaa/bbbb'
-
-@app.route('/aaaa/bbbb/cccc')
-def hello_world_aaaa_bbbb():
-    return 'the path is /aaaa/bbbb/cccc'
-
 @app.route('/today')
 def today_date():
     return str(date.today())
