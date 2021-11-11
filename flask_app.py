@@ -13,3 +13,7 @@ def hello_world():
 @app.route('/today')
 def today_date():
     return str(date.today())
+
+@app.route('/handsome')
+def handsome():
+    return 'You are so handsome!'
