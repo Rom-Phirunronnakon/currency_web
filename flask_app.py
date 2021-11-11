@@ -18,6 +18,10 @@ def hello_world_aaaa():
 def hello_world_aaaa_bbbb():
     return 'the path is /aaaa/bbbb'
 
+@app.route('/aaaa/bbbb/cccc')
+def hello_world_aaaa_bbbb():
+    return 'the path is /aaaa/bbbb/cccc'
+
 @app.route('/today')
 def today_date():
     return str(date.today())
