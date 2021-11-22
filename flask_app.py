@@ -1,3 +1,4 @@
+
 # A very simple Flask Hello World app for you to get started with...
 
 from flask import Flask
@@ -7,12 +8,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello from Rom Phirunronnakon'
+    return 'Hello from Rom Phirunronnakon!'
 
 @app.route('/today')
-def today_date():
+def hello_today():
     return str(date.today())
 
-@app.route('/handsome')
-def handsome():
-    return 'You are so handsome!'
+
